@@ -2,22 +2,32 @@
 <html>
 <head>
     <meta charset='utf-8'>
-    <title>Portal MED</title>
+    <title>Portal MED - Login</title>
     <link rel="icon" type="image/x-icon" href="img\icon.ico">
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
 </head>
-<body>
-    <div class="top">
-        <img src = 'img\logo.png', alt = 'Logo', class="logo"/>
+<body class ="mainL">
+    <div class="topL">
+        <a href="home.html">
+            <img class = logoL src = 'img\logo.png', alt = 'Logo'/>
+        </a>
     </div>
-    <div class="body">
+    <div class="bodyLogin">
         <div class = "content">
-            <input type="email", placeholder="Email"><br>
-            <input type="password", placeholder="Senha"><br>
-            <button>Logar</button><br>
-            <a href="index.html">Caso não tenha um Login, peça ao seu médico</a>
+            <form class="formLogin">
+                <input type="email", placeholder="Email ou CIP">
+                <input type="password", placeholder="Senha">
+                <a onclick="msg()" class="remember">Esqueci a senha</a>
+            </form>
+            <button class="btnLogin">Logar</button>
+            <p class="noLogin">Caso não tenha um login entre em contato com seu <b>médico</b>!</p>
         </div>
     </div>
-    <div class="bot"></div>
+    <div class="botL"></div>
 </body>
+<script>
+    function msg(){
+        window.alert('Teste')
+    }
+</script>
 </html>

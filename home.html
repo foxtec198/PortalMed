@@ -5,6 +5,11 @@
     <title>Portal MED</title>
     <link rel="icon" type="image/x-icon" href="img\icon.ico">
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script>
+        function login(){
+            window.location = "login.html"
+        }
+    </script>
 </head>
 <body>
     <div class="top">
@@ -12,7 +17,7 @@
             <img src = 'img\logo.png', alt = 'Logo', class="logo"/>
         </div>
         <div class="btnF">
-            <button class="log" onclick="">Login</button>
+            <button class="log"  onclick="login()"><b>Login</b></button>
         </div>
     </div>
     <div class="main">
@@ -23,9 +28,9 @@
                 <img src="img/doc.png" alt="icone" class="iconD">
                 <p class="cnt">É fundamental guardar seus documentos de forma
                     organizada e segura. Manter seus papéis, contratos,
-                    certidões e registros importantes em um local apropriado ajuda 
+                    certidões e registros em um local apropriado ajuda 
                     a garantir que você possa acessá-los facilmente 
-                    quando necessário. Pense em seus pacientes!</p>
+                    quando necessário.</p>
             </div>
             <div class="card">
                 <img src="img/prontuario.png" alt="icone" class="iconD">
@@ -43,12 +48,21 @@
                 </p>
             </div>
         </div>
+    <h1 class="title">Empresas que já utilizam de nossos serviços</h1>
     <div class="emp">
-
+        <img class="bradescoImg" src="img/bradesco.png">
+        <img class="hapvidaImg" src="img/hapvida.png">
+        <img class="notreDameImg" src="img/notreDame.png">
+        <img class="unimedImg" src="img/unimed.png">
     </div>
     </div>
     <div class="bot">
-
+        <div class="redesSOciais">
+            <a><img class="imgRede" src="img/insta.png" alt="instagram"></a>
+            <a><img class="imgRede" src="img/face.png" alt="facebook"></a>
+            <a><img class="imgRede" src="img/likendin.png" alt="linkedin"></a>
+        </div>
+        <p class="direitos"> Todos direitos reservados a TechMedicina 2023 ₢ </p>
     </div>
 </body>
 </html>
