@@ -12,7 +12,6 @@ body{
 }
 .logo{
     margin-top: 20px;
-    width: 200px;
     height: 50px;
 }
 .btnF{
@@ -157,7 +156,7 @@ button{
     width: 200px;
 }
 .mainL{
-    background-image: url("img/bgLogin.jpg");
+    background-image: url("../img/bgLogin.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -211,4 +210,93 @@ input{
     font-style: oblique;
     text-align: right;
     padding-right: 20px;
+}
+.mainBody{
+    background-color: white;
+}
+
+/* MAIN */
+.logoPaciente{
+    border-radius: 50%;
+    width: 100px;
+    margin-right: 20px;
+}
+.infosTitle{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    padding: 20px;
+    padding-left: 60px;
+}
+.dados{
+    margin: 0;
+    background-color: #056C95;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around ;
+    flex-wrap: wrap;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    padding: 10px;
+}
+.cardDoc{
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    min-width: 150px;
+    border-radius: 10px;
+}
+.bodyAll{
+    padding: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    background-image: url("../img/bgLogin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.docBody{
+    margin-top: 50px;
+    background: #056C95;
+    border-radius: 20px;
+}
+.divDoc{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.mainTop{
+    background: #056C95;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: space-around;
+}
+.doc{
+    height: 200px;
+    border-radius: 10px;
+}
+.btnDoc{
+    margin: 10px;
+}
+.bradesco{
+    width: 100px;
+}
+.btnLogout{
+    background-color: white;
+    color: black;
 }

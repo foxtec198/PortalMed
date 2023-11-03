@@ -4,7 +4,8 @@
     <meta charset='utf-8'>
     <title>Portal MED - Login</title>
     <link rel="icon" type="image/x-icon" href="img\icon.ico">
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src="js/script.js" defer></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
 </head>
 <body class ="mainL">
     <div class="topL">
@@ -15,19 +16,14 @@
     <div class="bodyLogin">
         <div class = "content">
             <form class="formLogin">
-                <input type="email", placeholder="Email ou CIP">
-                <input type="password", placeholder="Senha">
+                <input type="email" id="user" autocomplete="off", autofocus placeholder="Email ou CIP">
+                <input type="password" id="pasw" placeholder="Senha">
                 <a onclick="msg()" class="remember">Esqueci a senha</a>
             </form>
-            <button class="btnLogin">Logar</button>
+            <button type="submit" class="btnLogin" onclick="loginAction()" accesskey="enter">Logar</button>
             <p class="noLogin">Caso não tenha um login entre em contato com seu <b>médico</b>!</p>
         </div>
     </div>
     <div class="botL"></div>
 </body>
-<script>
-    function msg(){
-        window.alert('Teste')
-    }
-</script>
 </html>
